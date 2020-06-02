@@ -7,10 +7,10 @@ To run:
   2. Place each of the zipfiles into the instances one by one.
   3. Unzip the files.
   4. In each instance, run the following commands:
-  ```
+```
     sudo docker-compose up
- ```
-      #incase docker-compose up is not installed:
+```
+      --incase docker-compose up is not installed:
       ```
           sudo apt-get update
           sudo apt-get install docker
@@ -26,6 +26,7 @@ To run:
     vi.   Edit the rules and add the following rules:
               IF /api/v1/users GOTO UsersInstance
               ELSE GOTO RidesInstance
+  ```
   6. Also, ensure that port 80 for all three instances are exposed. Configure as per requirement using security groups.
   7. Once all three instances are up and load balancer is active, open Postman and send requests the orchestrator's IP address.
   
