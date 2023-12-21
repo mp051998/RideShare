@@ -1,5 +1,5 @@
 
-RideShare App - developed as part of our Cloud Computing Course.
+RideShare App
 Technologies used - AWS, REST, Python, Docker, Load-Balancing, Zookeeper, Rabbitmq
 
 To run:
